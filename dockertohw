@@ -1,0 +1,35 @@
+#!/bin/bash
+
+nowyear=$(date +%Y)
+nowmonth=$(date +%m)
+nowday=$(date +%d)
+nowtime=$(date "+%Y_%m_%d %H:%M:%S")
+echo "Start time :${nowtime}"
+
+
+
+re="swr.cn-east-2.myhuaweicloud.com/yb7/([^:]+):([^ ]+)"
+al="registry.cn-beijing.aliyuncs.com/lanjing/([^:]+):([^ ]+)"
+metadata=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy  -o jsonpath='{..metadata..name}')
+
+#echo ${metadata[0]["name"]}
+deployall=($metadata)  
+versionall=[]
+for  ((i=0; i<${#deployall[*]}; i++))
+do
+	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy ${deployall[$i]}  -o jsonpath='{..image}'); 
+	#echo "${deployall[$MY_FILE_NAME1]} online current version:"
+	if [[ $imageStr =~ $al ]]; then 
+		
+ 	   	echo "${imageStr}"
+ 	   	docker pull ${imageStr}
+ 	   	echo "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
+ 	   	docker tag ${imageStr} "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
+ 	   	docker push "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
+
+	fi
+	
+done
+
+
+read -p "done"
