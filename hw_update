@@ -20,13 +20,16 @@ do
 	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy ${deployall[$i]}  -o jsonpath='{..image}'); 
 	#echo "${deployall[$MY_FILE_NAME1]} online current version:"
 	if [[ $imageStr =~ $al ]]; then 
-		
+		echo "names===>>>${deployall[$i]}"
+		#echo  "${i} ：${deployall[$i]} --------- now online version: ${BASH_REMATCH[2]}"
  	   	echo "${imageStr}"
  	   	docker pull ${imageStr}
  	   	echo "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
  	   	docker tag ${imageStr} "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
  	   	docker push "swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}"
-
+		kubectl --kubeconfig $KUBECONFIG_PROD patch deployment/${BASH_REMATCH[1]} -p '{"spec":{"template":{"spec":{"imagePullSecrets":[{"name":"default-secret"}]}}}}'
+		kubectl --kubeconfig $KUBECONFIG_PROD set image deployment/${BASH_REMATCH[1]} ${BASH_REMATCH[1]}=swr.cn-east-2.myhuaweicloud.com/yb7/${BASH_REMATCH[1]}:${BASH_REMATCH[2]}
+		kubectl --kubeconfig $KUBECONFIG_PROD get pod -l app=${BASH_REMATCH[1]}
 	fi
 	
 done
