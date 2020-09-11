@@ -34,22 +34,23 @@ done
 
 read -p "请输入你需要上线的deployment的编号：" NO
 deployment=${deployall[$NO]}
+preLog=pre.log
 if [  ${deployment} ]; then
 	echo "select:${deployment}"
 	imageStr=$(kubectl --kubeconfig $KUBECONFIG_TEST get deploy ${deployment} -o jsonpath='{..image}')
 	echo "TEST:${imageStr}"
-	echo "TEST:${imageStr}" >> up.log
+	echo "TEST:${imageStr}" >> $preLog
 	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PRE get deploy ${deployment} -o jsonpath='{..image}')
 	echo "PRE:${imageStr}"
-	echo "PRE:${imageStr}" >> up.log
+	echo "PRE:${imageStr}" >> $preLog
 	read -p "请输入版本号：" SV
 	dt="$(date "+%Y-%m-%d %H:%M:%S") update ${deployment}:${SV}"
 	echo $dt
-	echo $dt >> up.log
+	echo $dt >> $preLog
 	kubectl --kubeconfig $KUBECONFIG_PRE  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/yb7/$deployment:$SV
 	sleep 3
 	kubectl --kubeconfig $KUBECONFIG_PRE  get pod -l app=$deployment
-	echo '' >> up.log
+	echo '' >> $preLog
 else
 	echo "select error "
 	exit
