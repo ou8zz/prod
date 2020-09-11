@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+deployall=(
+"cailianpress-admin"
+"cailianpress-admin-web"
+"cailianpress-api"
+"cailianpress-credits-mall"
+"cailianpress-cron"
+"cailianpress-featured-api"
+"cailianpress-openapi"
+"cailianpress-payment-v2"
+"cailianpress-search"
+"cailianpress-statics"
+"cailianpress-vod"
+"cailianpress-wap"
+"core-restful"
+"core-service"
+"dpns-controller"
+"dpns-register"
+"go-mysql-elasticsearch"
+"h5quotes"
+"in-app-views"
+"stib-cailianpress-web"
+"stib-dpns-controller"
+"stib-in-app-views"
+"cls-es"
+"cls-web"
+"cailianpress-rss"
+)
+
+for  ((i=0; i<${#deployall[*]}; i++))
+do
+	echo "${i}:${deployall[$i]}";
+done	
+
+read -p "请输入你需要上线的deployment的编号：" NO
+deployment=${deployall[$NO]}
+if [  ${deployment} ]; then
+	echo "select:${deployment}"
+	imageStr=$(kubectl --kubeconfig $KUBECONFIG_TEST get deploy ${deployment} -o jsonpath='{..image}')
+	echo "TEST:${imageStr}"
+	echo "TEST:${imageStr}" >> up.log
+	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PRE get deploy ${deployment} -o jsonpath='{..image}')
+	echo "PRE:${imageStr}"
+	echo "PRE:${imageStr}" >> up.log
+	read -p "请输入版本号：" SV
+	dt="$(date "+%Y-%m-%d %H:%M:%S") update ${deployment}:${SV}"
+	echo $dt
+	echo $dt >> up.log
+	kubectl --kubeconfig $KUBECONFIG_PRE  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/yb7/$deployment:$SV
+	sleep 3
+	kubectl --kubeconfig $KUBECONFIG_PRE  get pod -l app=$deployment
+	echo '' >> up.log
+else
+	echo "select error "
+	exit
+fi
