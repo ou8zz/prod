@@ -2,3 +2,7 @@ TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.5.100
 PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:6.4.146
 2020-09-11 14:34:16 update cailianpress-admin-web:6.4.146
 
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:0.0.164
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:0.0.160
+2020-09-11 16:37:39 update h5quotes:0.0.164
+
