@@ -25,6 +25,7 @@ deployall=(
 "cls-es"
 "cls-web"
 "cailianpress-rss"
+"cls-im"
 )
 
 for  ((i=0; i<${#deployall[*]}; i++))

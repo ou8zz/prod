@@ -25,6 +25,7 @@ deployall=(
 "cls-es"
 "cls-web"
 "cailianpress-rss"
+"cls-im"
 )
 
 for  ((i=0; i<${#deployall[*]}; i++))
@@ -40,6 +41,9 @@ if [  ${deployment} ]; then
 	imageStr=$(kubectl --kubeconfig $KUBECONFIG_TEST get deploy ${deployment} -o jsonpath='{..image}')
 	echo "TEST:${imageStr}"
 	echo "TEST:${imageStr}" >> $prodLog
+	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PRE get deploy ${deployment} -o jsonpath='{..image}')
+	echo "PRE :${imageStr}"
+	echo "PRE :${imageStr}" >> $prodLog
 	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy ${deployment} -o jsonpath='{..image}')
 	echo "PROD:${imageStr}"
 	echo "PROD:${imageStr}" >> $prodLog
