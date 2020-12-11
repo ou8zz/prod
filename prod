@@ -26,6 +26,10 @@ deployall=(
 "cls-web"
 "cailianpress-rss"
 "cls-im"
+"cls-hw-controller"
+"cls-ios-controller"
+"cls-jg-controller"
+"cls-xm-controller"
 )
 
 for  ((i=0; i<${#deployall[*]}; i++))
@@ -33,29 +37,32 @@ do
 	echo "${i}:${deployall[$i]}";
 done	
 
-read -p "请输入你需要上线的deployment的编号：" NO
-deployment=${deployall[$NO]}
-prodLog=prod.log
-if [  ${deployment} ]; then
-	echo "select:${deployment}"
-	imageStr=$(kubectl --kubeconfig $KUBECONFIG_TEST get deploy ${deployment} -o jsonpath='{..image}')
-	echo "TEST:${imageStr}"
-	echo "TEST:${imageStr}" >> $prodLog
-	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PRE get deploy ${deployment} -o jsonpath='{..image}')
-	echo "PRE :${imageStr}"
-	echo "PRE :${imageStr}" >> $prodLog
-	imageStr=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy ${deployment} -o jsonpath='{..image}')
-	echo "PROD:${imageStr}"
-	echo "PROD:${imageStr}" >> $prodLog
-	read -p "请输入版本号：" SV
-	dt="$(date "+%Y-%m-%d %H:%M:%S") update ${deployment}:${SV}"
-	echo $dt
-	echo $dt >> $prodLog
-	kubectl --kubeconfig $KUBECONFIG_PROD  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/yb7/$deployment:$SV
-	sleep 3
-	kubectl --kubeconfig $KUBECONFIG_PROD  get pod -l app=$deployment
-	echo '' >> $prodLog
-else
-	echo "select error "
-	exit
-fi
+while true
+do
+	read -p "请输入你需要上线的deployment的编号：" NO
+	deployment=${deployall[$NO]}
+	prodLog=prod.log
+	if [  ${deployment} ]; then
+		#echo "select:${deployment}"
+		imageStr=$(kubectl --kubeconfig $KUBECONFIG_TEST get deploy ${deployment} -o jsonpath='{..image}')
+		echo "TEST:${imageStr}"
+		echo "TEST:${imageStr}" >> $prodLog
+		imageStr=$(kubectl --kubeconfig $KUBECONFIG_PRE get deploy ${deployment} -o jsonpath='{..image}')
+		echo "PRE :${imageStr}"
+		echo "PRE :${imageStr}" >> $prodLog
+		imageStr=$(kubectl --kubeconfig $KUBECONFIG_PROD get deploy ${deployment} -o jsonpath='{..image}')
+		echo "PROD:${imageStr}"
+		echo "PROD:${imageStr}" >> $prodLog
+		read -p "请输入版本号：" SV
+		dt="$(date "+%Y-%m-%d %H:%M:%S") update ${deployment}:${SV}"
+		echo $dt
+		echo $dt >> $prodLog
+		kubectl --kubeconfig $KUBECONFIG_PROD  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/yb7/$deployment:$SV
+		sleep 3
+		kubectl --kubeconfig $KUBECONFIG_PROD  get pod -l app=$deployment
+		echo '' >> $prodLog
+	else
+		echo "select error "
+		exit
+	fi
+done

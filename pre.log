@@ -117,3 +117,39 @@ TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.5.510
 PRE:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:0.1.672
 2020-11-13 16:08:36 update in-app-views:7.5.510
 
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.41
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.0.523
+2020-12-11 14:33:32 update stib-cailianpress-web:1.4.41
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.41
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.41
+2020-12-11 15:12:29 update stib-cailianpress-web:1.4.39
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.41
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.39
+2020-12-11 15:15:42 update stib-cailianpress-web:1.4.41
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.42
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.41
+2020-12-11 15:39:28 update stib-cailianpress-web:1.4.42
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.13
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.12
+2020-12-11 18:31:31 update cls-hw-controller:0.0.13
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.14
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.13
+2020-12-11 18:31:59 update cls-ios-controller:0.0.14
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-jg-controller:0.0.11
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cls-jg-controller:0.0.10
+2020-12-11 18:32:30 update cls-jg-controller:0.0.11
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.13
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.13
+2020-12-11 18:33:06 update cls-hw-controller:0.0.13
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.14
+PRE:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.14
+2020-12-11 18:33:24 update cls-ios-controller:0.0.14
+

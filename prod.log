@@ -248,3 +248,28 @@ PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.87
 TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.0.107
 PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.0.106
 PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.0.107
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.1.41
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.1.27
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.1.27
+2020-12-04 13:45:21 update cailianpress-featured-api:0.1.41
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.13
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.12
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-hw-controller:0.0.12
+2020-12-11 18:18:54 update cls-hw-controller:0.0.13
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.14
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.13
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ios-controller:0.0.13
+2020-12-11 18:19:14 update cls-ios-controller:0.0.14
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-jg-controller:0.0.11
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-jg-controller:0.0.10
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-jg-controller:0.0.10
+2020-12-11 18:19:39 update cls-jg-controller:0.0.11
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-xm-controller:0.0.21
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-xm-controller:0.0.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-xm-controller:0.0.17
+2020-12-11 18:19:51 update cls-xm-controller:0.0.21
+
