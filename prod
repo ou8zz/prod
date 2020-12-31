@@ -30,6 +30,7 @@ deployall=(
 "cls-ios-controller"
 "cls-jg-controller"
 "cls-xm-controller"
+"cls-order"
 )
 
 for  ((i=0; i<${#deployall[*]}; i++))
@@ -58,7 +59,7 @@ do
 		echo $dt
 		echo $dt >> $prodLog
 		kubectl --kubeconfig $KUBECONFIG_PROD  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/yb7/$deployment:$SV
-		sleep 3
+		#sleep 3
 		kubectl --kubeconfig $KUBECONFIG_PROD  get pod -l app=$deployment
 		echo '' >> $prodLog
 	else
