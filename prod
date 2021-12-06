@@ -3,39 +3,45 @@ deployall=(
 "cailianpress-admin"
 "cailianpress-admin-web"
 "cailianpress-api"
-"cailianpress-credits-mall"
+"cls-web"
+"in-app-views"
 "cailianpress-cron"
 "cailianpress-featured-api"
-"cailianpress-openapi"
+"cailianpress-vod"
 "cailianpress-payment-v2"
 "cailianpress-search"
-"cailianpress-statics"
-"cailianpress-vod"
-"cailianpress-wap"
+"cailianpress-openapi"
 "core-restful"
 "core-service"
+"cls-es"
+"cailianpress-statics"
+"cailianpress-wap"
 "dpns-controller"
 "dpns-register"
 "go-mysql-elasticsearch"
 "h5quotes"
-"in-app-views"
 "stib-cailianpress-web"
 "stib-dpns-controller"
 "stib-in-app-views"
-"cls-es"
-"cls-web"
+"cailianpress-credits-mall"
 "cailianpress-rss"
 "cls-im"
 "cls-hw-controller"
 "cls-ios-controller"
 "cls-jg-controller"
 "cls-xm-controller"
+"cls-push-getway"
 "cls-order"
+"cls-sync"
+"eoe"
+"eoecms"
+"cls-ad"
 )
 
 for  ((i=0; i<${#deployall[*]}; i++))
 do
-	echo "${i}:${deployall[$i]}";
+	listString="[${i}]:${deployall[$i]}";
+	echo $listString;
 done	
 
 while true

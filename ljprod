@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+deployall=(
+"ljapi"
+"ljapp"
+"ljims"
+"ljcms"
+"ljwap"
+"ljweb"
+"ljsearch"
+"ljlive"
+"ljpush"
+"lj-im"
+"lj-rss"
+"lj-website"
+)
+
+listString="";
+for  ((i=0; i<${#deployall[*]}; i++))
+do
+	listString="[${i}]:${deployall[$i]}";
+	echo $listString;
+done	
+
+while true
+do
+    read -p "请输入你需要上线的deployment的编号：" NO
+	deployment=${deployall[$NO]}
+	prodLog=prod.log
+	if [  ${deployment} ]; then
+		#echo "select:${deployment}"
+		imageStr=$(kubectl --kubeconfig $KUBECONFIG_HW_TEST get deploy ${deployment} -o jsonpath='{..image}')
+		echo "TEST:${imageStr}"
+		echo "TEST:${imageStr}" >> $prodLog
+		imageStr=$(kubectl --kubeconfig $KUBECONFIG_HW get deploy ${deployment} -o jsonpath='{..image}')
+		echo "PROD:${imageStr}"
+		echo "PROD:${imageStr}" >> $prodLog
+		read -p "请输入版本号：" SV
+		dt="$(date "+%Y-%m-%d %H:%M:%S") update ${deployment}:${SV}"
+		echo $dt
+		echo $dt >> $prodLog
+		kubectl --kubeconfig $KUBECONFIG_HW  set image deployment/$deployment $deployment=swr.cn-east-2.myhuaweicloud.com/riskflow/$deployment:$SV
+		#sleep 3
+		kubectl --kubeconfig $KUBECONFIG_HW  get pod -l app=$deployment
+		echo '' >> $prodLog
+		echo 'next'
+	else
+		echo "select error "
+		exit
+	fi
+done
+
