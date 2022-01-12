@@ -3719,3 +3719,416 @@ PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
 PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
 2021-12-06 13:53:39 update cailianpress-admin-web:7.7.417
 
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.78
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.78
+2021-12-06 14:54:09 update cailianpress-cron:2.0.80
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.419
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.417
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.419
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.417
+2021-12-06 15:57:07 update cailianpress-admin-web:7.7.419
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-payment-v2:1.0.19
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-payment-v2:1.0.19
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-payment-v2:1.0.18
+2021-12-06 16:43:33 update cailianpress-payment-v2:1.0.19
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.24
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.24
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.6
+2021-12-06 16:43:52 update cailianpress-admin:v1.4.24
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.41
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.45
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.35
+2021-12-06 16:43:58 update cailianpress-api:4.2.45
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+2021-12-07 10:11:39 update cls-ad:1.1.59
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.59
+2021-12-07 13:36:15 update cls-ad:1.1.60
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.60
+2021-12-07 13:44:26 update cls-ad:1.1.60
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.60
+2021-12-07 13:44:34 update cls-ad:1.1.61
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.61
+2021-12-07 13:57:13 update cls-ad:1.1.62
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.63
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.58
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.62
+2021-12-07 14:32:09 update cls-ad:1.1.63
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.420
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.419
+2021-12-08 10:06:37 update cailianpress-admin-web:7.7.420
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.80
+2021-12-10 16:01:24 update cailianpress-cron:2.0.81
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.81
+2021-12-10 16:02:08 update cailianpress-cron:2.0.80
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.60
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.45
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.45
+2021-12-10 16:18:14 update cailianpress-api:4.2.61
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.7
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.1
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.4
+2021-12-10 16:20:20 update core-service:1.1.8
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.2.14
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.2.8
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-featured-api:0.2.11
+2021-12-10 16:20:33 update cailianpress-featured-api:0.2.14
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-vod:1.4.7
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-vod:1.4.3
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-vod:1.4.6
+2021-12-10 16:20:45 update cailianpress-vod:1.4.8
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.60
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.45
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.61
+2021-12-10 17:25:03 update cailianpress-api:4.2.62
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.80
+2021-12-10 17:57:32 update cailianpress-cron:2.0.83
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.83
+2021-12-10 18:43:39 update cailianpress-cron:2.0.85
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.427
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.420
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.420
+2021-12-14 11:39:56 update in-app-views:7.7.427
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.428
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.427
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.427
+2021-12-15 11:27:47 update in-app-views:7.7.428
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.69
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.70
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.62
+2021-12-15 17:23:36 update cailianpress-api:4.2.70
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.772
+2021-12-15 17:23:41 update cls-web:1.1.775
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.73
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.85
+2021-12-16 15:16:21 update cailianpress-cron:2.0.88
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.777
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+2021-12-16 17:10:59 update cls-web:1.1.777
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.34
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.24
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.24
+2021-12-16 17:51:15 update cailianpress-admin:v1.4.36
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapp:3.0.68
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapp:3.0.57
+2021-12-16 18:34:55 update ljapp:3.0.68
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.778
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.777
+2021-12-21 17:18:15 update cls-web:1.1.778
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.700
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.420
+2021-12-22 10:55:28 update cailianpress-admin-web:7.7.700
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.702
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.415
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.700
+2021-12-22 16:17:46 update cailianpress-admin-web:7.7.702
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.45
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.46
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.36
+2021-12-22 17:16:12 update cailianpress-admin:v1.4.46
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.48
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.46
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.46
+2021-12-23 10:54:18 update cailianpress-admin:v1.4.49
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.779
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.778
+2021-12-24 15:16:21 update cls-web:1.1.779
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapi:2.2.55
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapi:2.2.45
+2021-12-27 15:11:38 update ljapi:2.2.55
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapp:3.0.72
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljapp:3.0.68
+2021-12-27 15:11:43 update ljapp:3.0.72
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljims:1.2.162
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljims:1.2.155
+2021-12-27 15:11:46 update ljims:1.2.162
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljcms:202102280405.riskfe.161
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljcms:202102280405.riskfe.158
+2021-12-27 15:21:06 update ljcms:202102280405.riskfe.161
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.105
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.70
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.70
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.708
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.708
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.702
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.105
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.1
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.70
+2021-12-27 17:36:28 update cailianpress-api:4.3.1
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.708
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.708
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.702
+2021-12-27 17:36:36 update cailianpress-admin-web:7.7.708
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.702
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.702
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.428
+2021-12-27 17:36:40 update in-app-views:7.7.702
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.717
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.717
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.5.900
+2021-12-27 17:36:46 update h5quotes:7.7.717
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.2.105
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.1
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.1
+2021-12-27 17:51:18 update cailianpress-api:4.3.3
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.780
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.775
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.779
+2021-12-28 16:52:39 update cls-web:1.1.780
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.51
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.52
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.49
+2021-12-31 14:56:59 update cailianpress-admin:v1.4.52
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.7
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.11
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.3
+2021-12-31 14:57:05 update cailianpress-api:4.3.11
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.68
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.68
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-ad:1.1.63
+2021-12-31 14:57:09 update cls-ad:1.1.68
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.717
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.717
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.708
+2021-12-31 16:05:04 update cailianpress-admin-web:7.7.717
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.702
+2021-12-31 16:05:10 update in-app-views:7.7.709
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+2021-12-31 16:05:24 update in-app-views:7.7.702
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.720
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.720
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.717
+2021-12-31 16:05:52 update h5quotes:7.7.720
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.13
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.14
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.11
+2021-12-31 16:19:04 update cailianpress-api:4.3.14
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.51
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.56
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.52
+2021-12-31 16:41:48 update cailianpress-admin:v1.4.56
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.13
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.14
+2021-12-31 16:41:53 update cailianpress-api:4.3.17
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.94
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.88
+2021-12-31 16:42:00 update cailianpress-cron:2.0.94
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.12
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.13
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/core-service:1.1.8
+2021-12-31 16:42:06 update core-service:1.1.13
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/eoe:1.1.20
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/eoe:1.1.21
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/eoe:1.1.18
+2021-12-31 16:42:15 update eoe:1.1.21
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.709
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/in-app-views:7.7.702
+2021-12-31 16:43:10 update in-app-views:7.7.709
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.720
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.720
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/h5quotes:7.7.720
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.1.4
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.1.5
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-es:1.1.3
+2021-12-31 16:58:00 update cls-es:1.1.5
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-sync:2.0.9
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-sync:2.0.9
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-sync:2.0.6
+2021-12-31 16:58:05 update cls-sync:2.0.9
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.51
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.56
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin:v1.4.56
+2021-12-31 18:03:38 update cailianpress-admin:v1.4.58
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.721
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.717
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.717
+2022-01-04 16:50:21 update cailianpress-admin-web:7.7.721
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.19
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+2022-01-05 16:36:59 update cailianpress-api:4.3.22
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.94
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.94
+2022-01-06 11:53:17 update cailianpress-cron:2.0.96
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.15
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.97
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-cron:2.0.96
+2022-01-06 11:54:40 update cailianpress-cron:2.0.97
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:7.7.900
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:1.0.21
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:1.0.21
+2022-01-06 15:44:55 update cailianpress-wap:7.7.900
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-statics:7.7.901
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-statics:0.2.5
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-statics:0.2.7
+2022-01-06 16:04:48 update cailianpress-statics:7.7.901
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.40
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.22
+2022-01-06 17:25:13 update cailianpress-api:4.3.40
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.41
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.40
+2022-01-06 17:33:05 update cailianpress-api:4.3.43
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.781
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.781
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.780
+2022-01-07 13:59:15 update cls-web:1.1.781
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.601
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.601
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:202102201653.clsfe.44
+2022-01-07 13:59:29 update stib-cailianpress-web:1.4.601
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.724
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.717
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-admin-web:7.7.721
+2022-01-10 13:52:37 update cailianpress-admin-web:7.7.724
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljims:1.2.166
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljims:1.2.162
+2022-01-11 11:07:07 update ljims:1.2.166
+
+TEST:swr.cn-east-2.myhuaweicloud.com/riskflow/ljcms:2.2.800
+PROD:swr.cn-east-2.myhuaweicloud.com/riskflow/ljcms:202102280405.riskfe.161
+2022-01-11 13:42:31 update ljcms:2.2.800
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.41
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.43
+2022-01-12 15:16:03 update cailianpress-api:4.3.49
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.41
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.17
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-api:4.3.49
+2022-01-12 15:44:01 update cailianpress-api:4.3.53
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.785
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.781
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cls-web:1.1.781
+2022-01-12 17:48:01 update cls-web:1.1.785
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.602
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.601
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/stib-cailianpress-web:1.4.601
+2022-01-12 17:48:12 update stib-cailianpress-web:1.4.602
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:7.7.900
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:1.0.21
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/cailianpress-wap:7.7.900
+2022-01-12 17:48:36 update cailianpress-wap:7.7.900
+
+TEST:swr.cn-east-2.myhuaweicloud.com/yb7/stib-wap:1.0.154
+PRE :swr.cn-east-2.myhuaweicloud.com/yb7/stib-wap:1.0.147
+PROD:swr.cn-east-2.myhuaweicloud.com/yb7/stib-wap:1.0.147
+2022-01-12 17:50:44 update stib-wap:1.0.154
+

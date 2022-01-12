@@ -23,6 +23,7 @@ deployall=(
 "stib-cailianpress-web"
 "stib-dpns-controller"
 "stib-in-app-views"
+"stib-wap"
 "cailianpress-credits-mall"
 "cailianpress-rss"
 "cls-im"
